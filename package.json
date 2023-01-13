@@ -1,0 +1,24 @@
+{
+  "name": "lighting-sample",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "examples": "node --trace-uncaught ./examples.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atrichkov/lighting.git"
+  },
+  "author": "Asen Trichkov",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/atrichkov/lighting#readme",
+  "dependencies": {
+    "events": "^3.3.0",
+    "ln-service": "^54.9.0",
+    "qrcode": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
